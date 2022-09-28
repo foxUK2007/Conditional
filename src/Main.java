@@ -113,11 +113,27 @@ public class Main {
         System.out.println("Задание 3");
         System.out.println();
 
+        int one = 12;
+        int two = 12;
+        int three = 12;
+        boolean numberOne = one > two && one > three;
+        boolean numberTwo = two > one && two > three;
+        boolean numberThree = three > one && three > two;
 
-
+        if (numberOne) {
+            System.out.println("Большее число - " + " " + one);
+        }
+        if (numberTwo) {
+            System.out.println("Большее число - " + " " + two);
+        }
+        if (numberThree) {
+            System.out.println("Большее число - " + " " + three);
+        }
     }
 
+
 }
+
 
 
 
