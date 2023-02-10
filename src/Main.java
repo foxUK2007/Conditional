@@ -102,7 +102,7 @@ public class Main {
 
         int ageChild = 8;
         if (ageChild > 14) {
-            System.out.println("Ребенок может кататься на аттракционах без сопровождения взрослых");
+            System.out.println("Ребенок может сколько угодно кататься на аттракционах без сопровождения взрослых");
         } else if (ageChild > 5 && ageChild < 14) {
             System.out.println("Ребенок может кататься на аттракционах только в сопровождении взрослых");
         } else if (ageChild < 5) {
@@ -129,6 +129,7 @@ public class Main {
         if (numberThree) {
             System.out.println("Большее число - " + " " + three);
         }
+
     }
 
 
